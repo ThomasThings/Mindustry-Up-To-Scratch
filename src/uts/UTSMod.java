@@ -1,4 +1,4 @@
-package example;
+package uts;
 
 import arc.*;
 import arc.util.*;
@@ -30,7 +30,8 @@ public class UTSMod extends Mod{
 
     @Override
     public void loadContent(){
-        Log.info("Loading some example content.");
+        UTSItems.load();
+        Log.info("Loading Items.");
     }
 
 }
