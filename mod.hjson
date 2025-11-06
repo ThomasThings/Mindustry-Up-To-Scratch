@@ -8,7 +8,7 @@ name: "mindus-uts"
 author: "You"
 
 #the fully qualified main class of the mod
-main: "uts.UTSMOD"
+main: "uts.UTSMod"
 
 #the mod description as seen in the mod dialog
 description: "An Overhaul mod, inspired by various games"
