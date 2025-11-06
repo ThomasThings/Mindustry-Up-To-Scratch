@@ -19,9 +19,9 @@ public class UTSItems{
         }};
 
 
-        xenaciaItems.addAll(iron);
+        utsItems.addAll(iron);
 
-        xenaciaOnlyItems.addAll(xenaciaItems).removeAll(serpuloItems);
-        xenaciaOnlyItems.removeAll(erekirItems);
+        utsOnlyItems.addAll(utsItems).removeAll(serpuloItems);
+        utsOnlyItems.removeAll(erekirItems);
     }
 }
