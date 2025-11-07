@@ -14,10 +14,10 @@ import static mindustry.type.ItemStack.with;
 
 public class UTSProduction{
     public static Block
-            crudeSmelter;
+            crudeFurnace;
 
     public static void load(){
-        crudeSmelter = new GenericCrafter("crude-smelter"){{
+        crudeFurnace = new GenericCrafter("crude-furnace"){{
             requirements(Category.crafting, with(UTSItems.stone, 15));
 
             outputItem = new ItemStack(UTSItems.stoneBrick, 1);
