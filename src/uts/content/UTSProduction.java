@@ -25,10 +25,6 @@ public class UTSProduction{
             size = 2;
             hasPower = false;
             hasLiquids = false;
-            drawer = new DrawMulti(
-                    new DrawRegion("-bottom"),
-                    new DrawRegion("-hammer")
-            );
             ambientSound = Sounds.smelter;
             ambientSoundVolume = 0.07f;
 
