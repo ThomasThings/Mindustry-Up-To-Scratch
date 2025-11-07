@@ -1,4 +1,4 @@
-package xenacia.content;
+package uts.content;
 
 import mindustry.content.Fx;
 import mindustry.entities.effect.RadialEffect;
@@ -12,7 +12,7 @@ import mindustry.world.draw.DrawRegion;
 
 import static mindustry.type.ItemStack.with;
 
-public class XenFactoryBlocks{
+public class UTSProduction{
     public static Block
             crudeSmelter;
 
