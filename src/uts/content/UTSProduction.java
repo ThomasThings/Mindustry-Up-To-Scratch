@@ -21,7 +21,7 @@ public class UTSProduction{
             requirements(Category.crafting, with(UTSItems.stone, 15));
 
             outputItem = new ItemStack(UTSItems.stoneBrick, 1);
-            craftTime = 30f;
+            craftTime = 60f;
             size = 2;
             hasPower = false;
             hasLiquids = false;
