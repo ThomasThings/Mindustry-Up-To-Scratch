@@ -24,7 +24,7 @@ public class UTSItems{
             hardness = 1;
             cost = 0.3f;
         }};
-        IronIngot = new Item("iron-ingot", Color.valueOf("b6bdcd")){{
+        ironIngot = new Item("iron-ingot", Color.valueOf("b6bdcd")){{
             cost = 0.5f;
         }};
         crudeCopper = new Item("crude-copper", Color.valueOf("d9ac8f")){{
