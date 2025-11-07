@@ -15,7 +15,7 @@ public class UTSMod extends Mod{
     @Override
     public void loadContent(){
         UTSItems.load();
-        Log.info("Loading Items.");
+        UTSProduction.load();
     }
 
 }
