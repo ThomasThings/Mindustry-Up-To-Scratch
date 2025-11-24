@@ -37,7 +37,8 @@ import mindustry.world.consumers.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
-import static mindustry.type.ItemStack.with;
+import static mindustry.Vars.*;
+import static mindustry.type.ItemStack.*;
 
 public class UTSUnitTests{
     public static Block
