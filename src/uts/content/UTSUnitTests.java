@@ -9,6 +9,8 @@ import mindustry.world.Block;
 import mindustry.world.blocks.production.GenericCrafter;
 import mindustry.world.draw.DrawMulti;
 import mindustry.world.draw.DrawRegion;
+import mindustry.content.blocks;
+import mindustrt.content.unitTypes;
 
 import static mindustry.type.ItemStack.with;
 
