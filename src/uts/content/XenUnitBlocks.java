@@ -5,6 +5,8 @@ import mindustry.type.Category;
 import mindustry.world.Block;
 import mindustry.world.blocks.payloads.PayloadConveyor;
 import mindustry.world.blocks.units.UnitFactory;
+import mindustry.content.UnitTypes.*;
+import mindustry.content.Items.*;
 
 import static mindustry.type.ItemStack.with;
 
@@ -17,7 +19,7 @@ public class XenUnitBlocks{
             requirements(Category.units, with(UTSItems.ironIngot));
             health = 650;
             plans = Seq.with(
-                    new UnitPlan(XenUnitTypes.serpence, 60f * 20, with(UTSItems.ironIngot, 25, Items.silicon, 2))
+                    new UnitPlan(UnitTypes.dagger, 60f * 20, with(UTSItems.ironIngot, 25, Items.silicon, 2))
             );
             size = 2;
             consumePower(0.5f);
