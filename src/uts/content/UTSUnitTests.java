@@ -14,7 +14,7 @@ import static mindustry.type.ItemStack.with;
 
 public class UTSUnitTests{
     public static Block
-            testWall, testConstructor, testAssembler;
+            testWall, testConstructor, testAssembler, testReconstructor;
 
     public static void load(){
         testWall = new Wall("test-wall"){{
@@ -38,12 +38,25 @@ public class UTSUnitTests{
             regionSuffix = "-dark";
             size = 5;
             plans.add(
-                    new AssemblerUnitPlan(UnitTypes.vanquish, 60f * 50f, PayloadStack.list(UnitTypes.stell, 4, Blocks.tungstenWallLarge, 10))
+                    new AssemblerUnitPlan(UnitTypes.Dagger, 60f * 50f, PayloadStack.list(UTSUnitTests.testWall, 5))
             );
             areaSize = 13;
             researchCostMultiplier = 0.4f;
 
             consumePower(2.5f);
+        }};
+        testReconstructor = new Reconstructor("test-reconstructor"){{
+            requirements(Category.units, with(Items.copper, 200, Items.lead, 120, Items.silicon, 90));
+
+            size = 3;
+            consumePower(3f);
+            consumeItems(with(Items.silicon, 40, Items.graphite, 40));
+
+            constructTime = 60f * 10f;
+
+            upgrades.addAll(
+                    new UnitType[]{UnitTypes.nova, UnitTypes.pulsar}
+            );
         }};
     }
 }
